@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="register_name" type="id" />
+    <item name="register_password" type="id" />
+    <item name="register_email" type="id" />
+    <item name="navigation_notifications" type="id" />
+    <item name="navigation_dashboard" type="id" />
+    <item name="navigation_home" type="id" />
+</resources>

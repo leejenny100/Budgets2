@@ -12,7 +12,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_constraintHorizontal_bias="30"
-    tools:context=".calendarActivity">
+    tools:context=".calendarFragment">
 
     <ProgressBar
         android:id="@+id/progressBar4"
@@ -29,9 +29,9 @@
         android:id="@+id/calendar"
         android:layout_width="350dp"
         android:layout_height="360dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="87dp"
+        android:layout_alignLeft="@+id/progressBar4"
+        android:layout_alignStart="@+id/progressBar4"
+        android:layout_alignTop="@+id/calendar_text"
         android:focusedMonthDateColor="#000000"
         android:selectedWeekBackgroundColor="#f8b195"
         android:unfocusedMonthDateColor="#6c5b7b"
@@ -81,14 +81,52 @@
 
     <EditText
         android:id="@+id/calendar_text"
-        android:layout_width="128dp"
+        android:layout_width="167dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginTop="55dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="CALENDAR"
+        android:textSize="24sp"
         android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/progressBar4"
+        android:layout_alignLeft="@+id/progressBar4"
+        android:layout_alignStart="@+id/progressBar4"
+        android:src="@drawable/ic_action_social" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/progressBar3"
+        android:layout_alignLeft="@+id/progressBar3"
+        android:layout_alignStart="@+id/progressBar3"
+        android:src="@drawable/ic_action_utilities" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/progressBar5"
+        android:layout_alignLeft="@+id/progressBar5"
+        android:layout_alignStart="@+id/progressBar5"
+        android:src="@drawable/ic_action_savings" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/g"
+        android:layout_alignStart="@+id/progressBar4"
+        android:src="@drawable/ic_action_food" />
 
 </RelativeLayout>

@@ -21,7 +21,7 @@
         <activity
             android:name=".bottom_navigation_main"
             android:label="@string/title_activity_bottom_navigation_main" />
-        <activity android:name=".calendarActivity"></activity>
+        <activity android:name=".calendarFragment"></activity>
     </application>
 
 </manifest>

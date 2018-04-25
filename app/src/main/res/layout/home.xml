@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:background="#FFFFFF">
 
+
     <Button
         android:id="@+id/button10"
         android:layout_width="0dp"
@@ -121,34 +122,15 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="04.25.2018" />
 
-    <android.support.constraint.Guideline
-        android:id="@+id/guideline9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp" />
-
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/bottom_navigation"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        app:itemIconTint="#FFFFFF"
-        app:itemTextColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:menu="@menu/bottom_navigation_main" />
-
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="47dp"
-        android:layout_height="wrap_content"
+        android:layout_width="53dp"
+        android:layout_height="39dp"
         android:layout_marginBottom="61dp"
         android:ems="10"
         android:inputType="number"
         android:text="80%"
+        android:textColor="#355c7d"
         app:layout_constraintBottom_toBottomOf="@+id/progressBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

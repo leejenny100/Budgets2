@@ -21,4 +21,6 @@
         android:text="Calendar"
         android:textSize="30sp"/>
 
+    <include layout="@layout/activity_bottom_navigation_main"/>
+    
 </RelativeLayout>

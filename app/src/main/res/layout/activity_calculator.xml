@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#ffffff"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#ffffff">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="508dp"
+        android:layout_height="449dp"
         android:orientation="horizontal"
         tools:layout_editor_absoluteY="151dp">
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,23 +30,23 @@
                 tools:layout_editor_absoluteY="8dp">
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/button7"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="7" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/button8"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="8" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/button9"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="9" />
             </LinearLayout>
@@ -61,21 +62,21 @@
                 <Button
                     android:id="@+id/button4"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="4" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/button5"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="5" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/button6"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="6" />
 
@@ -90,23 +91,23 @@
                 tools:layout_editor_absoluteY="8dp">
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/button1"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="1" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/button2"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="2" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/button3"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="3" />
             </LinearLayout>
@@ -120,23 +121,23 @@
                 tools:layout_editor_absoluteY="8dp">
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/buttonAC"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="AC" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/button0"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="0" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/buttonHIST"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="HIST" />
             </LinearLayout>
@@ -144,42 +145,79 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="222dp"
+            android:layout_width="201dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="vertical"
             tools:layout_editor_absoluteY="527dp">
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/buttonDIV"
                 android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_height="match_parent"
                 android:text="DIV" />
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/buttonMULT"
                 android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_height="match_parent"
                 android:text="MULT" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/buttonADD"
                 android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_height="match_parent"
                 android:text="ADD" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/buttonSUB"
                 android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_height="match_parent"
                 android:text="SUB" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonEQ"
                 android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_height="match_parent"
                 android:text="=" />
         </LinearLayout>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="414dp"
+        android:layout_height="147dp"
+        android:text="TextView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#355c7d"
+        app:itemIconTint="#FFFFFF"
+        app:itemTextColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation_main" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
 
 </android.support.constraint.ConstraintLayout>

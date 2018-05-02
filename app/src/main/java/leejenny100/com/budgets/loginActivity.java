@@ -176,7 +176,7 @@ public class loginActivity extends AppCompatActivity implements LoaderCallbacks<
             focusView = mEmailView;
             cancel = true;
         }
-
+        cancel = false;
         if (cancel) {
             // There was an error; don't attempt login and focus the first
             // form field with an error.

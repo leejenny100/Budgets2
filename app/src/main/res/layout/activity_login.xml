@@ -104,7 +104,9 @@
         android:text="@string/button_login_text"
         android:textAllCaps="true"
         android:textSize="15sp"
-        android:textColor="#000000" />
+        android:clickable="true"
+        android:textColor="#000000"
+        />
 
     <Space
         android:layout_width="match_parent"

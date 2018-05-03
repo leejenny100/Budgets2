@@ -18,6 +18,7 @@
         android:layout_marginRight="18dp"
         android:layout_marginStart="40dp"
         android:text="DECREASE 10"
+        android:onClick="dec10"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/social"
@@ -68,28 +69,11 @@
         android:text="INCREASE 10"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
+        android:onClick="inc10"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button10"
         app:layout_constraintTop_toBottomOf="@+id/button8" />
-
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Inverse"
-        android:layout_width="189dp"
-        android:layout_height="171dp"
-        android:layout_marginBottom="60dp"
-        android:layout_marginTop="66dp"
-        android:indeterminateTint="#ffffff"
-        android:indeterminateTintMode="src_in"
-        android:max="100"
-        android:progress="0"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/button8"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/editText"
-        tools:visibility="visible" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline8"
@@ -98,7 +82,7 @@
         android:orientation="vertical"
         app:layout_constraintGuide_begin="20dp" />
 
-    <EditText
+    <TextView
         android:id="@+id/editText"
         android:layout_width="140dp"
         android:layout_height="wrap_content"
@@ -117,15 +101,16 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="05.02.2018" />
 
-    <EditText
+    <TextView
         android:id="@+id/editText2"
         android:layout_width="53dp"
-        android:layout_height="6dp"
+        android:layout_height="31dp"
         android:layout_marginBottom="121dp"
-        android:ems="10"
         android:inputType="number"
-        android:text= "COUNTERVALUE"
+        android:text="0"
+        android:textAlignment="center"
         android:textColor="#355C7D"
+        android:textSize="17sp"
         app:layout_constraintBottom_toTopOf="@+id/button8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

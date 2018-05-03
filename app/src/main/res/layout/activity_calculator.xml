@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff">
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="449dp"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteY="151dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="102dp">
 
 
         <LinearLayout
@@ -154,31 +156,31 @@
             <Button
                 android:id="@+id/buttonDIV"
                 android:layout_width="100dp"
-                android:layout_height="match_parent"
+                android:layout_height="90dp"
                 android:text="DIV" />
 
             <Button
                 android:id="@+id/buttonMULT"
                 android:layout_width="100dp"
-                android:layout_height="match_parent"
+                android:layout_height="90dp"
                 android:text="MULT" />
 
             <Button
                 android:id="@+id/buttonADD"
                 android:layout_width="100dp"
-                android:layout_height="match_parent"
+                android:layout_height="90dp"
                 android:text="ADD" />
 
             <Button
                 android:id="@+id/buttonSUB"
                 android:layout_width="100dp"
-                android:layout_height="match_parent"
+                android:layout_height="90dp"
                 android:text="SUB" />
 
             <Button
                 android:id="@+id/buttonEQ"
                 android:layout_width="100dp"
-                android:layout_height="match_parent"
+                android:layout_height="90dp"
                 android:text="=" />
         </LinearLayout>
     </LinearLayout>
@@ -192,19 +194,12 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
 
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigation"
-        android:layout_width="0dp"
+    <TextView
+        android:id="@+id/infoTextView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="#355c7d"
-        app:itemIconTint="#FFFFFF"
-        app:itemTextColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottom_navigation_main" />
+        android:layout_marginBottom="30dp"
+        android:textSize="30sp" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline4"
@@ -221,3 +216,4 @@
         app:layout_constraintGuide_begin="20dp" />
 
 </android.support.constraint.ConstraintLayout>
+</layout>

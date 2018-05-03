@@ -26,6 +26,7 @@
     <string name="title_activity_user">User</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="search_title">Search</string>
+    <string name="ten">10</string>
     <string name="food_text">Food</string>
     <string name="social_text">Social</string>
     <string name="savings_text">Savings</string>

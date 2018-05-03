@@ -15,7 +15,7 @@
     <!-- Login progress -->
     <Space
         android:layout_width="match_parent"
-        android:layout_height="70dp" />
+        android:layout_height="58dp" />
 
     <ProgressBar
         android:id="@+id/login_progress"
@@ -34,94 +34,46 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="130dp" />
+        android:layout_height="225dp" />
 
     <ScrollView
         android:id="@+id/login_form"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <LinearLayout
-            android:id="@+id/email_login_form"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <AutoCompleteTextView
-                    android:id="@+id/username"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:drawableLeft="@drawable/ic_action_user"
-                    android:drawableStart="@drawable/ic_action_user"
-                    android:hint="@string/email_text"
-                    android:inputType="textEmailAddress"
-                    android:textColorHint="#3B3B3E"
-                    android:maxLines="1"
-                    android:singleLine="true"
-                    android:textAllCaps="true"
-                    android:textColor="#000000"
-                    android:visibility="visible" />
-
-            </android.support.design.widget.TextInputLayout>
-
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <EditText
-                    android:id="@+id/password"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:drawableLeft="@drawable/ic_action_pwd"
-                    android:drawableStart="@drawable/ic_action_pwd"
-                    android:textColorHint="#3B3B3E"
-                    android:hint="@string/password_text"
-                    android:imeActionId="6"
-                    android:imeActionLabel="@string/action_sign_in_short"
-                    android:imeOptions="actionUnspecified"
-                    android:inputType="textPassword"
-                    android:textColor="#000000"
-                    android:maxLines="1"
-                    android:singleLine="true"
-                    android:textAllCaps="true" />
-
-            </android.support.design.widget.TextInputLayout>
-
-        </LinearLayout>
     </ScrollView>
     <Space
         android:layout_width="match_parent"
         android:layout_height="15dp" />
 
-    <TextView
+    <Button
         android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_login_text"
+        android:text="WELCOME"
         android:textAllCaps="true"
         android:textSize="15sp"
         android:clickable="true"
+        android:focusable="true"
         android:textColor="#000000"
+        android:background="@android:color/transparent"
                />
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="195dp" />
+        android:layout_height="106dp" />
 
-    <TextView
+    <Button
+        android:focusable="true"
         android:id="@+id/register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/action_register"
         android:textAllCaps="true"
         android:textSize="12sp"
         android:clickable="true"
+        android:background="@android:color/transparent"
         android:textColor="#000000"
-        android:onClick="register_register"/>
+        />
 </LinearLayout>
 
 

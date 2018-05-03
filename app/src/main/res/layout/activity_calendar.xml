@@ -14,25 +14,16 @@
     app:layout_constraintHorizontal_bias="30"
     tools:context=".calendarFragment">
 
-    <ProgressBar
-        android:id="@+id/progressBar4"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="165dp"
-        android:visibility="visible"
-        tools:visibility="visible" />
 
     <CalendarView
         android:id="@+id/calendar"
         android:layout_width="350dp"
         android:layout_height="360dp"
-        android:layout_alignLeft="@+id/progressBar4"
-        android:layout_alignStart="@+id/progressBar4"
-        android:layout_alignTop="@+id/calendar_text"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp"
         android:focusedMonthDateColor="#000000"
+        android:background="#f8b195"
         android:selectedWeekBackgroundColor="#f8b195"
         android:unfocusedMonthDateColor="#6c5b7b"
         android:visibility="visible" />
@@ -44,40 +35,6 @@
         android:layout_below="@+id/calendar"
         android:layout_centerHorizontal="true"
         android:background="?android:attr/listDivider" />
-
-    <ProgressBar
-        android:id="@+id/g"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="209dp"
-        android:background="#ffffff"
-        android:visibility="visible"
-        tools:visibility="visible" />
-
-    <ProgressBar
-        android:id="@+id/progressBar3"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="121dp"
-        android:visibility="visible"
-        tools:visibility="visible" />
-
-    <ProgressBar
-        android:id="@+id/progressBar5"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="79dp"
-        android:visibility="visible"
-        tools:visibility="visible" />
 
     <EditText
         android:id="@+id/calendar_text"
@@ -95,69 +52,6 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/progressBar4"
-        android:layout_alignLeft="@+id/progressBar4"
-        android:layout_alignStart="@+id/progressBar4"
-        android:src="@drawable/ic_action_social" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/progressBar3"
-        android:layout_alignLeft="@+id/progressBar3"
-        android:layout_alignStart="@+id/progressBar3"
-        android:src="@drawable/ic_action_utilities" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/progressBar5"
-        android:layout_alignLeft="@+id/progressBar5"
-        android:layout_alignStart="@+id/progressBar5"
-        android:src="@drawable/ic_action_savings" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/g"
-        android:layout_alignStart="@+id/progressBar4"
-        android:layout_alignLeft="@+id/progressBar4"
-        android:src="@drawable/ic_action_food" />
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigation"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="#355c7d"
-        app:itemIconTint="#FFFFFF"
-        app:itemTextColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottom_navigation_main" />
-
-    <android.support.constraint.Guideline
-        android:id="@+id/guideline4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp" />
-
-    <android.support.constraint.Guideline
-        android:id="@+id/guideline5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp" />
 
 
 </RelativeLayout>

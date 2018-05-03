@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "952351060376",
+    "firebase_url": "https://budgets2-mp7.firebaseio.com",
+    "project_id": "budgets2-mp7",
+    "storage_bucket": "budgets2-mp7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952351060376:android:f29e096b3a0193cf",
+        "android_client_info": {
+          "package_name": "leejenny100.com.budgets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952351060376-trdc3tpj4rcnaj5les69c7gc8m2thpl6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfr-XW9KqvG4BnmZMidcKInn632aXxm_M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
